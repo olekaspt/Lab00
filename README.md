@@ -9,10 +9,10 @@ Assignment:
 1.	Use the wikis on the Teams site to setup your development environemnt:  
 1.	Access Lab00 code by cloning this repo - git clone https://github.com/olekaspt/Lab00.git  
 1.	Perform:  
-⋅⋅1.	code .  
-⋅⋅1.	In VS Code Click Build  
-⋅⋅1.	In VS click which exe to run (and hit run) – Run both of them executables  
-⋅⋅1.	Set some breakpoints, and then run with debugger  
+  1.	code .  
+  1.	In VS Code Click Build  
+  1.	In VS click which exe to run (and hit run) – Run both of them executables  
+  1.	Set some breakpoints, and then run with debugger  
 1.	Fix the code to make UnitTests pass  
 1.	Make Report that shows screen captures of the following (paste these into a document and turn this into a PDF).  
 -	Output showing you could run the Main program and the Test programs  
