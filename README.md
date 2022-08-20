@@ -15,9 +15,9 @@ Assignment:
 ⋅⋅1.	Set some breakpoints, and then run with debugger  
 5)	Fix the code to make UnitTests pass  
 6)	Make Report that shows screen captures of the following (paste these into a document and turn this into a PDF).  
-a.	Output showing you could run the Main program and the Test programs  
-b.	Show me you can set breakpoints and see values of variables  
-c.	Show me that you got LiveShare working   
+*.	Output showing you could run the Main program and the Test programs  
+*.	Show me you can set breakpoints and see values of variables  
+*.	Show me that you got LiveShare working   
 
 The grade on this assignment will be determined by:  
 20% On having the testcases pass legitimately (see note in syllabus about dishonesty)  
