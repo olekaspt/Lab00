@@ -4,7 +4,10 @@
  
 WidgetWithArrays::WidgetWithArrays() : m_count(0)
 {
-    
+    for (int i =0 ; i < 100; i++) 
+    {
+        m_array[i] = 0;
+    }
 }
 
  
@@ -17,7 +20,13 @@ void WidgetWithArrays::storeInteger(int a)
 int WidgetWithArrays::sum()
 {
     int retVal = 0;
-    //TODO:
+    // TODO:
+    // hint standard for loop OR
+    // try looking into range based for loop (hint it can work with dumb arrays)
+    for (int n : m_array)
+    {
+        retVal += n;
+    }
 
     return retVal;
 }

@@ -2,33 +2,29 @@
 #include "whattotest.h"
 #include <gtest/gtest.h>
 
-int SumTest1(IWidget * widget);
+int SumTest1(IWidget & widget);
 
-int SumTest1(IWidget * widget)
+int SumTest1(IWidget & widget)
 {
-    widget->storeInteger(1);
-    widget->storeInteger(3);
-    int sum= widget->sum();
+    widget.storeInteger(1);
+    widget.storeInteger(3);
+    int sum= widget.sum();
     return sum;
 }
  
 TEST(WidgetWithArrays, SumTest1) 
 { 
 
-    WidgetWithArrays * widget1 = new WidgetWithArrays();
+    WidgetWithArrays widget1 ;
     int sum1 = SumTest1(widget1);
-    
-    delete widget1;
 
     ASSERT_EQ(4, sum1);
 }
  
 TEST(WidgetWithVector, SumTest1) {
 
-    WidgetWithVector * widget1 = new WidgetWithVector();
+    WidgetWithVector widget1 ;
     int sum1 = SumTest1(widget1);
-    
-    delete widget1;
 
     ASSERT_EQ(4, sum1);
 }

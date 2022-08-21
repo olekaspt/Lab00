@@ -18,7 +18,6 @@ public:
 
     int sum() override;
 private:
-
     int m_array[100];
     int m_count;
 
@@ -34,7 +33,5 @@ public:
 private:
 
     std::vector<int> m_vector;
-
-
 };
 
