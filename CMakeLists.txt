@@ -1,8 +1,11 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.12)
  
 # Locate GTest
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
+
+# this is in here in case you have issues about not using the latest C++
+#add_compile_options(-std=c++17) 
 
 add_library (applibrary SHARED whattotest.cpp)
  
