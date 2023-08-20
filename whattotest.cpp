@@ -14,7 +14,8 @@ WidgetWithArrays::WidgetWithArrays() : m_count(0)
 void WidgetWithArrays::storeInteger(int a)
 {
     //TODO:
-
+     m_array[m_count]= a;
+     m_count++;
 }
 
 int WidgetWithArrays::sum()
