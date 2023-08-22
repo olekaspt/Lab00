@@ -14,14 +14,13 @@ WidgetWithArrays::WidgetWithArrays() : m_count(0)
 void WidgetWithArrays::storeInteger(int a)
 {
     //TODO:
-     m_array[m_count]= a;
-     m_count++;
+
 }
 
 int WidgetWithArrays::sum()
 {
     int retVal = 0;
-    // TODO:
+
     // hint standard for loop OR
     // try looking into range based for loop (hint it can work with dumb arrays)
     for (int n : m_array)
@@ -53,8 +52,7 @@ int WidgetWithVector::sum()
     {
         retVal = retVal +n;
     }
-
-
+    
     return retVal;
 }
  
