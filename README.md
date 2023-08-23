@@ -7,7 +7,8 @@ Objective: The goal of this lab is to become familiar with Linux and the IDE env
 
 Assignment:
 1.	Use the wikis on the Teams site to setup your development environemnt:  
-1.	Access Lab00 code by cloning this repo - git clone https://github.com/olekaspt/Lab00.git  
+1.	Access Lab00 code by cloning this repo - git clone https://github.com/olekaspt/Lab00.git
+1.  cd Lab00
 1.	Perform:  
     1.	code .  
     1.	In VS Code Click Build  
