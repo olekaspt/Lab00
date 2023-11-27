@@ -1,6 +1,6 @@
 # Lab00
 
-EECE2080C Lab 00  Fall 2021
+EECE2080C Lab 00  
 Revised 20-Aug-2022
 
 Objective: The goal of this lab is to become familiar with Linux and the IDE environment.  And to also familiarize yourself with principles of test driven development using a UnitTest framework.
